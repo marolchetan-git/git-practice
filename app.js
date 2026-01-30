@@ -6,8 +6,8 @@ app.get("/", (req, res) =>{
     res.send("Hello")
 })
 
-app.post("/", (req, res)=>{
-    res.send("Post")
+app.post("/learning", (req, res)=>{
+    res.send("get-get")
 })
 
 app.listen(3000, () =>{
